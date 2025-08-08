@@ -1,4 +1,5 @@
 import problem_solving.FizzBuzz
+import problem_solving.NumberOfSteps
 
 
 fun main() {
@@ -23,12 +24,17 @@ fun main() {
 //     FizzBuzz
 //     https://leetcode.com/problems/fizz-buzz/description/
 
-    val n = 15
-    val fizzBuzz = FizzBuzz()
+//    val n = 15
+//    val fizzBuzz = FizzBuzz()
+//
+//    val result = fizzBuzz.fizzBuzz(n)
+//    println(result)
 
-    val result = fizzBuzz.fizzBuzz(n)
-    println(result)
+//     Number ====== 3 ======
+//     Number Of Steps
+//     https://leetcode.com/problems/number-of-steps-to-reduce-a-number-to-zero/description/
 
+    println(NumberOfSteps().numberOfSteps(8))
 
 
 
