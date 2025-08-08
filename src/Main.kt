@@ -1,18 +1,35 @@
-import problem_solving.RichestCustomerWealth
+import problem_solving.FizzBuzz
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
 fun main() {
 
-    val accounts = arrayOf(
-        intArrayOf(1, 2, 3),
-        intArrayOf(3, 2, 1),
-        intArrayOf(4, 5, 6)
-    )
 
-    val richestCustomerWealth = RichestCustomerWealth()
+//     Number ====== 1 ======
+//     RichestCustomerWealth
+//     https://leetcode.com/problems/richest-customer-wealth/description/
+//
+//    val accounts = arrayOf(
+//        intArrayOf(1, 2, 3),
+//        intArrayOf(3, 2, 1),
+//        intArrayOf(4, 5, 6)
+//    )
+//
+//    val richestCustomerWealth = RichestCustomerWealth()
+//
+//    val result = richestCustomerWealth.maximumWealth(accounts)
+//    println(result)
 
-    val res = richestCustomerWealth.maximumWealth(accounts)
+//     Number ====== 2 ======
+//     FizzBuzz
+//     https://leetcode.com/problems/fizz-buzz/description/
+
+    val n = 15
+    val fizzBuzz = FizzBuzz()
+
+    val result = fizzBuzz.fizzBuzz(n)
+    println(result)
+
+
 
 
 }
